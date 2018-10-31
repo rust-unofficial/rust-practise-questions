@@ -1,12 +1,13 @@
 window.search = {
-    "doc_urls": ["about.html#about", "about.html#what-this-book-is-not", "FAQs.html#faqs", "chapter_1.html#chapter-1"],
+    "doc_urls": ["about.html#about", "about.html#what-this-book-is-not", "FAQs.html#faqs", "RESOURCES.html#resources", "chapter_1-basics/questions.html#chapter-1---basics"],
     "index": {
         "documentStore": {
             "docInfo": {
                 "0": {"body": 10, "breadcrumbs": 0, "title": 0},
                 "1": {"body": 9, "breadcrumbs": 1, "title": 1},
                 "2": {"body": 82, "breadcrumbs": 1, "title": 1},
-                "3": {"body": 0, "breadcrumbs": 2, "title": 2}
+                "3": {"body": 41, "breadcrumbs": 1, "title": 1},
+                "4": {"body": 20, "breadcrumbs": 3, "title": 3}
             },
             "docs": {
                 "0": {
@@ -27,18 +28,34 @@ window.search = {
                     "id": "2",
                     "title": "FAQs"
                 },
-                "3": {"body": "", "breadcrumbs": "Chapter 1", "id": "3", "title": "Chapter 1"}
+                "3": {
+                    "body": "Some of the sources that might help you in learning Rust The rust book (main) - It is the main book and should be your companion till the end A gentle introduction to rust Learning Rust The official site for Documentation rust-learning - a community maintained learning resources rust-by-example - A practical book to teach you rust The above resources are more than enough to help you learn your way into the world of Rust",
+                    "breadcrumbs": "RESOURCES",
+                    "id": "3",
+                    "title": "RESOURCES"
+                },
+                "4": {
+                    "body": "Write a program to print Hello, World . Write a program to print a block F using hash (#), where the F has a height of six characters and width of five and four characters. ###### # # ##### # # #\\",
+                    "breadcrumbs": "Chapter 1 - Basics",
+                    "id": "4",
+                    "title": "Chapter 1 - Basics"
+                }
             },
-            "length": 4,
+            "length": 5,
             "save": true
         },
         "fields": ["title", "body", "breadcrumbs"],
         "index": {
             "body": {
                 "root": {
-                    "1": {"df": 1, "docs": {"3": {"tf": 1.0}}},
+                    "1": {"df": 1, "docs": {"4": {"tf": 1.0}}},
                     "2": {"df": 1, "docs": {"2": {"tf": 1.0}}},
                     "a": {
+                        "b": {
+                            "df": 0,
+                            "docs": {},
+                            "o": {"df": 0, "docs": {}, "v": {"df": 1, "docs": {"3": {"tf": 1.0}}}}
+                        },
                         "df": 0,
                         "docs": {},
                         "g": {
@@ -80,6 +97,15 @@ window.search = {
                         }
                     },
                     "b": {
+                        "a": {
+                            "df": 0,
+                            "docs": {},
+                            "s": {
+                                "df": 0,
+                                "docs": {},
+                                "i": {"c": {"df": 1, "docs": {"4": {"tf": 1.0}}}, "df": 0, "docs": {}}
+                            }
+                        },
                         "df": 0,
                         "docs": {},
                         "e": {
@@ -100,6 +126,15 @@ window.search = {
                                 }
                             }
                         },
+                        "l": {
+                            "df": 0,
+                            "docs": {},
+                            "o": {
+                                "c": {"df": 0, "docs": {}, "k": {"df": 1, "docs": {"4": {"tf": 1.0}}}},
+                                "df": 0,
+                                "docs": {}
+                            }
+                        },
                         "o": {
                             "df": 0,
                             "docs": {},
@@ -107,8 +142,13 @@ window.search = {
                                 "df": 0,
                                 "docs": {},
                                 "k": {
-                                    "df": 3,
-                                    "docs": {"0": {"tf": 1.0}, "1": {"tf": 1.4142135623730951}, "2": {"tf": 2.0}}
+                                    "df": 4,
+                                    "docs": {
+                                        "0": {"tf": 1.0},
+                                        "1": {"tf": 1.4142135623730951},
+                                        "2": {"tf": 2.0},
+                                        "3": {"tf": 1.7320508075688772}
+                                    }
                                 }
                             }
                         }
@@ -139,8 +179,17 @@ window.search = {
                                     "t": {
                                         "df": 0,
                                         "docs": {},
-                                        "e": {"df": 0, "docs": {}, "r": {"df": 1, "docs": {"3": {"tf": 1.0}}}}
+                                        "e": {"df": 0, "docs": {}, "r": {"df": 1, "docs": {"4": {"tf": 1.0}}}}
                                     }
+                                },
+                                "r": {
+                                    "a": {
+                                        "c": {
+                                            "df": 0,
+                                            "docs": {},
+                                            "t": {"df": 1, "docs": {"4": {"tf": 1.4142135623730951}}}
+                                        }, "df": 0, "docs": {}
+                                    }, "df": 0, "docs": {}
                                 }
                             },
                             "df": 0,
@@ -160,7 +209,26 @@ window.search = {
                                 "m": {
                                     "df": 0,
                                     "docs": {},
-                                    "u": {"df": 0, "docs": {}, "n": {"df": 1, "docs": {"2": {"tf": 1.0}}}}
+                                    "u": {
+                                        "df": 0,
+                                        "docs": {},
+                                        "n": {"df": 2, "docs": {"2": {"tf": 1.0}, "3": {"tf": 1.0}}}
+                                    }
+                                },
+                                "p": {
+                                    "a": {
+                                        "df": 0,
+                                        "docs": {},
+                                        "n": {
+                                            "df": 0,
+                                            "docs": {},
+                                            "i": {
+                                                "df": 0,
+                                                "docs": {},
+                                                "o": {"df": 0, "docs": {}, "n": {"df": 1, "docs": {"3": {"tf": 1.0}}}}
+                                            }
+                                        }
+                                    }, "df": 0, "docs": {}
                                 }
                             },
                             "n": {
@@ -190,6 +258,25 @@ window.search = {
                             "df": 0,
                             "docs": {},
                             "v": {"df": 0, "docs": {}, "e": {"df": 1, "docs": {"0": {"tf": 1.0}}}}
+                        },
+                        "o": {
+                            "c": {
+                                "df": 0,
+                                "docs": {},
+                                "u": {
+                                    "df": 0,
+                                    "docs": {},
+                                    "m": {
+                                        "df": 0,
+                                        "docs": {},
+                                        "e": {
+                                            "df": 0,
+                                            "docs": {},
+                                            "n": {"df": 0, "docs": {}, "t": {"df": 1, "docs": {"3": {"tf": 1.0}}}}
+                                        }
+                                    }
+                                }
+                            }, "df": 0, "docs": {}
                         }
                     },
                     "df": 0,
@@ -211,6 +298,20 @@ window.search = {
                         },
                         "df": 0,
                         "docs": {},
+                        "n": {
+                            "d": {"df": 1, "docs": {"3": {"tf": 1.0}}},
+                            "df": 0,
+                            "docs": {},
+                            "o": {
+                                "df": 0,
+                                "docs": {},
+                                "u": {
+                                    "df": 0,
+                                    "docs": {},
+                                    "g": {"df": 0, "docs": {}, "h": {"df": 1, "docs": {"3": {"tf": 1.0}}}}
+                                }
+                            }
+                        },
                         "t": {"c": {"df": 1, "docs": {"2": {"tf": 1.0}}}, "df": 0, "docs": {}},
                         "v": {
                             "df": 0,
@@ -224,6 +325,17 @@ window.search = {
                                     "t": {"df": 0, "docs": {}, "u": {"df": 1, "docs": {"2": {"tf": 1.0}}}}
                                 }
                             }
+                        },
+                        "x": {
+                            "a": {
+                                "df": 0,
+                                "docs": {},
+                                "m": {
+                                    "df": 0,
+                                    "docs": {},
+                                    "p": {"df": 0, "docs": {}, "l": {"df": 1, "docs": {"3": {"tf": 1.0}}}}
+                                }
+                            }, "df": 0, "docs": {}
                         }
                     },
                     "f": {
@@ -233,8 +345,8 @@ window.search = {
                             "q": {"df": 1, "docs": {"2": {"tf": 1.0}}},
                             "s": {"df": 0, "docs": {}, "t": {"df": 1, "docs": {"0": {"tf": 1.0}}}}
                         },
-                        "df": 0,
-                        "docs": {},
+                        "df": 1,
+                        "docs": {"4": {"tf": 1.4142135623730951}},
                         "e": {
                             "df": 0,
                             "docs": {},
@@ -248,22 +360,59 @@ window.search = {
                                 "df": 0,
                                 "docs": {},
                                 "s": {"df": 0, "docs": {}, "t": {"df": 1, "docs": {"2": {"tf": 1.0}}}}
-                            }
+                            },
+                            "v": {"df": 0, "docs": {}, "e": {"df": 1, "docs": {"4": {"tf": 1.0}}}}
                         },
                         "o": {
                             "df": 0,
                             "docs": {},
-                            "r": {"df": 0, "docs": {}, "m": {"df": 1, "docs": {"2": {"tf": 1.0}}}}
+                            "r": {"df": 0, "docs": {}, "m": {"df": 1, "docs": {"2": {"tf": 1.0}}}},
+                            "u": {"df": 0, "docs": {}, "r": {"df": 1, "docs": {"4": {"tf": 1.0}}}}
                         }
                     },
-                    "g": {"df": 0, "docs": {}, "o": {"df": 1, "docs": {"2": {"tf": 1.0}}}},
-                    "h": {
+                    "g": {
                         "df": 0,
                         "docs": {},
                         "e": {
                             "df": 0,
                             "docs": {},
-                            "l": {"df": 0, "docs": {}, "p": {"df": 1, "docs": {"2": {"tf": 1.7320508075688772}}}}
+                            "n": {
+                                "df": 0,
+                                "docs": {},
+                                "t": {"df": 0, "docs": {}, "l": {"df": 1, "docs": {"3": {"tf": 1.0}}}}
+                            }
+                        },
+                        "o": {"df": 1, "docs": {"2": {"tf": 1.0}}}
+                    },
+                    "h": {
+                        "a": {
+                            "df": 0,
+                            "docs": {},
+                            "s": {"df": 0, "docs": {}, "h": {"df": 1, "docs": {"4": {"tf": 1.0}}}}
+                        },
+                        "df": 0,
+                        "docs": {},
+                        "e": {
+                            "df": 0,
+                            "docs": {},
+                            "i": {
+                                "df": 0,
+                                "docs": {},
+                                "g": {
+                                    "df": 0,
+                                    "docs": {},
+                                    "h": {"df": 0, "docs": {}, "t": {"df": 1, "docs": {"4": {"tf": 1.0}}}}
+                                }
+                            },
+                            "l": {
+                                "df": 0,
+                                "docs": {},
+                                "l": {"df": 0, "docs": {}, "o": {"df": 1, "docs": {"4": {"tf": 1.0}}}},
+                                "p": {
+                                    "df": 2,
+                                    "docs": {"2": {"tf": 1.7320508075688772}, "3": {"tf": 1.4142135623730951}}
+                                }
+                            }
                         },
                         "i": {
                             "df": 0,
@@ -274,6 +423,31 @@ window.search = {
                     "i": {
                         "df": 0,
                         "docs": {},
+                        "n": {
+                            "df": 0,
+                            "docs": {},
+                            "t": {
+                                "df": 0,
+                                "docs": {},
+                                "r": {
+                                    "df": 0,
+                                    "docs": {},
+                                    "o": {
+                                        "d": {
+                                            "df": 0,
+                                            "docs": {},
+                                            "u": {
+                                                "c": {
+                                                    "df": 0,
+                                                    "docs": {},
+                                                    "t": {"df": 1, "docs": {"3": {"tf": 1.0}}}
+                                                }, "df": 0, "docs": {}
+                                            }
+                                        }, "df": 0, "docs": {}
+                                    }
+                                }
+                            }
+                        },
                         "r": {"c": {"df": 1, "docs": {"2": {"tf": 1.0}}}, "df": 0, "docs": {}},
                         "t": {
                             "'": {"df": 1, "docs": {"2": {"tf": 1.0}}},
@@ -329,8 +503,8 @@ window.search = {
                                     "df": 0,
                                     "docs": {},
                                     "n": {
-                                        "df": 1,
-                                        "docs": {"2": {"tf": 1.0}},
+                                        "df": 2,
+                                        "docs": {"2": {"tf": 1.0}, "3": {"tf": 2.23606797749979}},
                                         "e": {"df": 0, "docs": {}, "r": {"df": 1, "docs": {"2": {"tf": 1.0}}}}
                                     }
                                 }
@@ -347,6 +521,21 @@ window.search = {
                         "a": {
                             "df": 0,
                             "docs": {},
+                            "i": {
+                                "df": 0,
+                                "docs": {},
+                                "n": {
+                                    "df": 1,
+                                    "docs": {"3": {"tf": 1.4142135623730951}},
+                                    "t": {
+                                        "a": {
+                                            "df": 0,
+                                            "docs": {},
+                                            "i": {"df": 0, "docs": {}, "n": {"df": 1, "docs": {"3": {"tf": 1.0}}}}
+                                        }, "df": 0, "docs": {}
+                                    }
+                                }
+                            },
                             "k": {"df": 0, "docs": {}, "e": {"df": 1, "docs": {"2": {"tf": 1.0}}}}
                         },
                         "df": 0,
@@ -354,6 +543,7 @@ window.search = {
                         "o": {
                             "df": 0,
                             "docs": {},
+                            "r": {"df": 0, "docs": {}, "e": {"df": 1, "docs": {"3": {"tf": 1.0}}}},
                             "s": {
                                 "df": 0,
                                 "docs": {},
@@ -375,6 +565,23 @@ window.search = {
                                 "b": {"df": 0, "docs": {}, "i": {"df": 1, "docs": {"0": {"tf": 1.0}}}},
                                 "df": 1,
                                 "docs": {"2": {"tf": 1.4142135623730951}}
+                            }
+                        }
+                    },
+                    "o": {
+                        "df": 0,
+                        "docs": {},
+                        "f": {
+                            "df": 0,
+                            "docs": {},
+                            "f": {
+                                "df": 0,
+                                "docs": {},
+                                "i": {
+                                    "c": {"df": 0, "docs": {}, "i": {"df": 1, "docs": {"3": {"tf": 1.0}}}},
+                                    "df": 0,
+                                    "docs": {}
+                                }
                             }
                         }
                     },
@@ -411,12 +618,22 @@ window.search = {
                                     "t": {
                                         "df": 0,
                                         "docs": {},
-                                        "i": {"df": 0, "docs": {}, "s": {"df": 1, "docs": {"1": {"tf": 1.0}}}}
+                                        "i": {
+                                            "c": {"df": 1, "docs": {"3": {"tf": 1.0}}},
+                                            "df": 0,
+                                            "docs": {},
+                                            "s": {"df": 1, "docs": {"1": {"tf": 1.0}}}
+                                        }
                                     }
                                 }, "df": 0, "docs": {}
                             },
                             "df": 0,
                             "docs": {},
+                            "i": {
+                                "df": 0,
+                                "docs": {},
+                                "n": {"df": 0, "docs": {}, "t": {"df": 1, "docs": {"4": {"tf": 1.4142135623730951}}}}
+                            },
                             "o": {
                                 "b": {
                                     "df": 0,
@@ -446,9 +663,11 @@ window.search = {
                                     "df": 0,
                                     "docs": {},
                                     "r": {
-                                        "a": {"df": 0, "docs": {}, "m": {"df": 1, "docs": {"2": {"tf": 1.0}}}},
-                                        "df": 0,
-                                        "docs": {}
+                                        "a": {
+                                            "df": 0,
+                                            "docs": {},
+                                            "m": {"df": 2, "docs": {"2": {"tf": 1.0}, "4": {"tf": 1.4142135623730951}}}
+                                        }, "df": 0, "docs": {}
                                     }
                                 },
                                 "v": {
@@ -513,7 +732,24 @@ window.search = {
                                 }, "df": 0, "docs": {}
                             },
                             "df": 0,
-                            "docs": {}
+                            "docs": {},
+                            "s": {
+                                "df": 0,
+                                "docs": {},
+                                "o": {
+                                    "df": 0,
+                                    "docs": {},
+                                    "u": {
+                                        "df": 0,
+                                        "docs": {},
+                                        "r": {
+                                            "c": {"df": 1, "docs": {"3": {"tf": 1.7320508075688772}}},
+                                            "df": 0,
+                                            "docs": {}
+                                        }
+                                    }
+                                }
+                            }
                         },
                         "u": {
                             "df": 0,
@@ -534,7 +770,13 @@ window.search = {
                                                 }, "df": 0, "docs": {}
                                             }
                                         }, "df": 0, "docs": {}
-                                    }, "df": 2, "docs": {"1": {"tf": 1.0}, "2": {"tf": 1.4142135623730951}}
+                                    },
+                                    "df": 3,
+                                    "docs": {
+                                        "1": {"tf": 1.0},
+                                        "2": {"tf": 1.4142135623730951},
+                                        "3": {"tf": 2.8284271247461903}
+                                    }
                                 }
                             }
                         }
@@ -557,7 +799,9 @@ window.search = {
                                         "i": {"df": 2, "docs": {"1": {"tf": 1.0}, "2": {"tf": 1.0}}}
                                     }
                                 }
-                            }
+                            },
+                            "t": {"df": 0, "docs": {}, "e": {"df": 1, "docs": {"3": {"tf": 1.0}}}},
+                            "x": {"df": 1, "docs": {"4": {"tf": 1.0}}}
                         },
                         "o": {
                             "df": 0,
@@ -571,7 +815,7 @@ window.search = {
                             "u": {
                                 "df": 0,
                                 "docs": {},
-                                "r": {"c": {"df": 1, "docs": {"2": {"tf": 1.0}}}, "df": 0, "docs": {}}
+                                "r": {"c": {"df": 2, "docs": {"2": {"tf": 1.0}, "3": {"tf": 1.0}}}, "df": 0, "docs": {}}
                             }
                         },
                         "t": {
@@ -637,9 +881,11 @@ window.search = {
                         "docs": {},
                         "e": {
                             "a": {
-                                "c": {"df": 0, "docs": {}, "h": {"df": 1, "docs": {"1": {"tf": 1.0}}}},
-                                "df": 0,
-                                "docs": {}
+                                "c": {
+                                    "df": 0,
+                                    "docs": {},
+                                    "h": {"df": 2, "docs": {"1": {"tf": 1.0}, "3": {"tf": 1.0}}}
+                                }, "df": 0, "docs": {}
                             }, "df": 0, "docs": {}
                         },
                         "h": {
@@ -658,6 +904,7 @@ window.search = {
                         "i": {
                             "df": 0,
                             "docs": {},
+                            "l": {"df": 0, "docs": {}, "l": {"df": 1, "docs": {"3": {"tf": 1.0}}}},
                             "m": {"df": 0, "docs": {}, "e": {"df": 1, "docs": {"2": {"tf": 1.0}}}}
                         },
                         "r": {"df": 0, "docs": {}, "i": {"df": 1, "docs": {"2": {"tf": 1.0}}}},
@@ -685,7 +932,7 @@ window.search = {
                                 "docs": {}
                             }, "df": 0, "docs": {}
                         },
-                        "s": {"df": 1, "docs": {"2": {"tf": 1.0}}}
+                        "s": {"df": 2, "docs": {"2": {"tf": 1.0}, "4": {"tf": 1.0}}}
                     },
                     "w": {
                         "a": {
@@ -700,7 +947,7 @@ window.search = {
                                         "docs": {},
                                         "r": {"c": {"df": 1, "docs": {"2": {"tf": 1.0}}}, "df": 0, "docs": {}}
                                     }
-                                }, "df": 1, "docs": {"2": {"tf": 1.4142135623730951}}
+                                }, "df": 2, "docs": {"2": {"tf": 1.4142135623730951}, "3": {"tf": 1.0}}
                             }
                         },
                         "df": 0,
@@ -727,13 +974,24 @@ window.search = {
                                 "l": {"df": 0, "docs": {}, "e": {"df": 1, "docs": {"2": {"tf": 1.0}}}}
                             }
                         },
+                        "i": {
+                            "d": {
+                                "df": 0,
+                                "docs": {},
+                                "t": {"df": 0, "docs": {}, "h": {"df": 1, "docs": {"4": {"tf": 1.0}}}}
+                            }, "df": 0, "docs": {}
+                        },
                         "o": {
                             "df": 0,
                             "docs": {},
                             "r": {
                                 "df": 0,
                                 "docs": {},
-                                "l": {"d": {"df": 1, "docs": {"2": {"tf": 1.0}}}, "df": 0, "docs": {}}
+                                "l": {
+                                    "d": {"df": 3, "docs": {"2": {"tf": 1.0}, "3": {"tf": 1.0}, "4": {"tf": 1.0}}},
+                                    "df": 0,
+                                    "docs": {}
+                                }
                             }
                         },
                         "r": {
@@ -745,6 +1003,7 @@ window.search = {
                                 "t": {
                                     "df": 0,
                                     "docs": {},
+                                    "e": {"df": 1, "docs": {"4": {"tf": 1.4142135623730951}}},
                                     "t": {
                                         "df": 0,
                                         "docs": {},
@@ -758,9 +1017,14 @@ window.search = {
             },
             "breadcrumbs": {
                 "root": {
-                    "1": {"df": 1, "docs": {"3": {"tf": 1.4142135623730951}}},
+                    "1": {"df": 1, "docs": {"4": {"tf": 1.4142135623730951}}},
                     "2": {"df": 1, "docs": {"2": {"tf": 1.0}}},
                     "a": {
+                        "b": {
+                            "df": 0,
+                            "docs": {},
+                            "o": {"df": 0, "docs": {}, "v": {"df": 1, "docs": {"3": {"tf": 1.0}}}}
+                        },
                         "df": 0,
                         "docs": {},
                         "g": {
@@ -802,6 +1066,15 @@ window.search = {
                         }
                     },
                     "b": {
+                        "a": {
+                            "df": 0,
+                            "docs": {},
+                            "s": {
+                                "df": 0,
+                                "docs": {},
+                                "i": {"c": {"df": 1, "docs": {"4": {"tf": 1.4142135623730951}}}, "df": 0, "docs": {}}
+                            }
+                        },
                         "df": 0,
                         "docs": {},
                         "e": {
@@ -822,6 +1095,15 @@ window.search = {
                                 }
                             }
                         },
+                        "l": {
+                            "df": 0,
+                            "docs": {},
+                            "o": {
+                                "c": {"df": 0, "docs": {}, "k": {"df": 1, "docs": {"4": {"tf": 1.0}}}},
+                                "df": 0,
+                                "docs": {}
+                            }
+                        },
                         "o": {
                             "df": 0,
                             "docs": {},
@@ -829,8 +1111,13 @@ window.search = {
                                 "df": 0,
                                 "docs": {},
                                 "k": {
-                                    "df": 3,
-                                    "docs": {"0": {"tf": 1.0}, "1": {"tf": 1.7320508075688772}, "2": {"tf": 2.0}}
+                                    "df": 4,
+                                    "docs": {
+                                        "0": {"tf": 1.0},
+                                        "1": {"tf": 1.7320508075688772},
+                                        "2": {"tf": 2.0},
+                                        "3": {"tf": 1.7320508075688772}
+                                    }
                                 }
                             }
                         }
@@ -864,9 +1151,18 @@ window.search = {
                                         "e": {
                                             "df": 0,
                                             "docs": {},
-                                            "r": {"df": 1, "docs": {"3": {"tf": 1.4142135623730951}}}
+                                            "r": {"df": 1, "docs": {"4": {"tf": 1.4142135623730951}}}
                                         }
                                     }
+                                },
+                                "r": {
+                                    "a": {
+                                        "c": {
+                                            "df": 0,
+                                            "docs": {},
+                                            "t": {"df": 1, "docs": {"4": {"tf": 1.4142135623730951}}}
+                                        }, "df": 0, "docs": {}
+                                    }, "df": 0, "docs": {}
                                 }
                             },
                             "df": 0,
@@ -886,7 +1182,26 @@ window.search = {
                                 "m": {
                                     "df": 0,
                                     "docs": {},
-                                    "u": {"df": 0, "docs": {}, "n": {"df": 1, "docs": {"2": {"tf": 1.0}}}}
+                                    "u": {
+                                        "df": 0,
+                                        "docs": {},
+                                        "n": {"df": 2, "docs": {"2": {"tf": 1.0}, "3": {"tf": 1.0}}}
+                                    }
+                                },
+                                "p": {
+                                    "a": {
+                                        "df": 0,
+                                        "docs": {},
+                                        "n": {
+                                            "df": 0,
+                                            "docs": {},
+                                            "i": {
+                                                "df": 0,
+                                                "docs": {},
+                                                "o": {"df": 0, "docs": {}, "n": {"df": 1, "docs": {"3": {"tf": 1.0}}}}
+                                            }
+                                        }
+                                    }, "df": 0, "docs": {}
                                 }
                             },
                             "n": {
@@ -916,6 +1231,25 @@ window.search = {
                             "df": 0,
                             "docs": {},
                             "v": {"df": 0, "docs": {}, "e": {"df": 1, "docs": {"0": {"tf": 1.0}}}}
+                        },
+                        "o": {
+                            "c": {
+                                "df": 0,
+                                "docs": {},
+                                "u": {
+                                    "df": 0,
+                                    "docs": {},
+                                    "m": {
+                                        "df": 0,
+                                        "docs": {},
+                                        "e": {
+                                            "df": 0,
+                                            "docs": {},
+                                            "n": {"df": 0, "docs": {}, "t": {"df": 1, "docs": {"3": {"tf": 1.0}}}}
+                                        }
+                                    }
+                                }
+                            }, "df": 0, "docs": {}
                         }
                     },
                     "df": 0,
@@ -937,6 +1271,20 @@ window.search = {
                         },
                         "df": 0,
                         "docs": {},
+                        "n": {
+                            "d": {"df": 1, "docs": {"3": {"tf": 1.0}}},
+                            "df": 0,
+                            "docs": {},
+                            "o": {
+                                "df": 0,
+                                "docs": {},
+                                "u": {
+                                    "df": 0,
+                                    "docs": {},
+                                    "g": {"df": 0, "docs": {}, "h": {"df": 1, "docs": {"3": {"tf": 1.0}}}}
+                                }
+                            }
+                        },
                         "t": {"c": {"df": 1, "docs": {"2": {"tf": 1.0}}}, "df": 0, "docs": {}},
                         "v": {
                             "df": 0,
@@ -950,6 +1298,17 @@ window.search = {
                                     "t": {"df": 0, "docs": {}, "u": {"df": 1, "docs": {"2": {"tf": 1.0}}}}
                                 }
                             }
+                        },
+                        "x": {
+                            "a": {
+                                "df": 0,
+                                "docs": {},
+                                "m": {
+                                    "df": 0,
+                                    "docs": {},
+                                    "p": {"df": 0, "docs": {}, "l": {"df": 1, "docs": {"3": {"tf": 1.0}}}}
+                                }
+                            }, "df": 0, "docs": {}
                         }
                     },
                     "f": {
@@ -959,8 +1318,8 @@ window.search = {
                             "q": {"df": 1, "docs": {"2": {"tf": 1.4142135623730951}}},
                             "s": {"df": 0, "docs": {}, "t": {"df": 1, "docs": {"0": {"tf": 1.0}}}}
                         },
-                        "df": 0,
-                        "docs": {},
+                        "df": 1,
+                        "docs": {"4": {"tf": 1.4142135623730951}},
                         "e": {
                             "df": 0,
                             "docs": {},
@@ -974,22 +1333,59 @@ window.search = {
                                 "df": 0,
                                 "docs": {},
                                 "s": {"df": 0, "docs": {}, "t": {"df": 1, "docs": {"2": {"tf": 1.0}}}}
-                            }
+                            },
+                            "v": {"df": 0, "docs": {}, "e": {"df": 1, "docs": {"4": {"tf": 1.0}}}}
                         },
                         "o": {
                             "df": 0,
                             "docs": {},
-                            "r": {"df": 0, "docs": {}, "m": {"df": 1, "docs": {"2": {"tf": 1.0}}}}
+                            "r": {"df": 0, "docs": {}, "m": {"df": 1, "docs": {"2": {"tf": 1.0}}}},
+                            "u": {"df": 0, "docs": {}, "r": {"df": 1, "docs": {"4": {"tf": 1.0}}}}
                         }
                     },
-                    "g": {"df": 0, "docs": {}, "o": {"df": 1, "docs": {"2": {"tf": 1.0}}}},
-                    "h": {
+                    "g": {
                         "df": 0,
                         "docs": {},
                         "e": {
                             "df": 0,
                             "docs": {},
-                            "l": {"df": 0, "docs": {}, "p": {"df": 1, "docs": {"2": {"tf": 1.7320508075688772}}}}
+                            "n": {
+                                "df": 0,
+                                "docs": {},
+                                "t": {"df": 0, "docs": {}, "l": {"df": 1, "docs": {"3": {"tf": 1.0}}}}
+                            }
+                        },
+                        "o": {"df": 1, "docs": {"2": {"tf": 1.0}}}
+                    },
+                    "h": {
+                        "a": {
+                            "df": 0,
+                            "docs": {},
+                            "s": {"df": 0, "docs": {}, "h": {"df": 1, "docs": {"4": {"tf": 1.0}}}}
+                        },
+                        "df": 0,
+                        "docs": {},
+                        "e": {
+                            "df": 0,
+                            "docs": {},
+                            "i": {
+                                "df": 0,
+                                "docs": {},
+                                "g": {
+                                    "df": 0,
+                                    "docs": {},
+                                    "h": {"df": 0, "docs": {}, "t": {"df": 1, "docs": {"4": {"tf": 1.0}}}}
+                                }
+                            },
+                            "l": {
+                                "df": 0,
+                                "docs": {},
+                                "l": {"df": 0, "docs": {}, "o": {"df": 1, "docs": {"4": {"tf": 1.0}}}},
+                                "p": {
+                                    "df": 2,
+                                    "docs": {"2": {"tf": 1.7320508075688772}, "3": {"tf": 1.4142135623730951}}
+                                }
+                            }
                         },
                         "i": {
                             "df": 0,
@@ -1000,6 +1396,31 @@ window.search = {
                     "i": {
                         "df": 0,
                         "docs": {},
+                        "n": {
+                            "df": 0,
+                            "docs": {},
+                            "t": {
+                                "df": 0,
+                                "docs": {},
+                                "r": {
+                                    "df": 0,
+                                    "docs": {},
+                                    "o": {
+                                        "d": {
+                                            "df": 0,
+                                            "docs": {},
+                                            "u": {
+                                                "c": {
+                                                    "df": 0,
+                                                    "docs": {},
+                                                    "t": {"df": 1, "docs": {"3": {"tf": 1.0}}}
+                                                }, "df": 0, "docs": {}
+                                            }
+                                        }, "df": 0, "docs": {}
+                                    }
+                                }
+                            }
+                        },
                         "r": {"c": {"df": 1, "docs": {"2": {"tf": 1.0}}}, "df": 0, "docs": {}},
                         "t": {
                             "'": {"df": 1, "docs": {"2": {"tf": 1.0}}},
@@ -1055,8 +1476,8 @@ window.search = {
                                     "df": 0,
                                     "docs": {},
                                     "n": {
-                                        "df": 1,
-                                        "docs": {"2": {"tf": 1.0}},
+                                        "df": 2,
+                                        "docs": {"2": {"tf": 1.0}, "3": {"tf": 2.23606797749979}},
                                         "e": {"df": 0, "docs": {}, "r": {"df": 1, "docs": {"2": {"tf": 1.0}}}}
                                     }
                                 }
@@ -1073,6 +1494,21 @@ window.search = {
                         "a": {
                             "df": 0,
                             "docs": {},
+                            "i": {
+                                "df": 0,
+                                "docs": {},
+                                "n": {
+                                    "df": 1,
+                                    "docs": {"3": {"tf": 1.4142135623730951}},
+                                    "t": {
+                                        "a": {
+                                            "df": 0,
+                                            "docs": {},
+                                            "i": {"df": 0, "docs": {}, "n": {"df": 1, "docs": {"3": {"tf": 1.0}}}}
+                                        }, "df": 0, "docs": {}
+                                    }
+                                }
+                            },
                             "k": {"df": 0, "docs": {}, "e": {"df": 1, "docs": {"2": {"tf": 1.0}}}}
                         },
                         "df": 0,
@@ -1080,6 +1516,7 @@ window.search = {
                         "o": {
                             "df": 0,
                             "docs": {},
+                            "r": {"df": 0, "docs": {}, "e": {"df": 1, "docs": {"3": {"tf": 1.0}}}},
                             "s": {
                                 "df": 0,
                                 "docs": {},
@@ -1101,6 +1538,23 @@ window.search = {
                                 "b": {"df": 0, "docs": {}, "i": {"df": 1, "docs": {"0": {"tf": 1.0}}}},
                                 "df": 1,
                                 "docs": {"2": {"tf": 1.4142135623730951}}
+                            }
+                        }
+                    },
+                    "o": {
+                        "df": 0,
+                        "docs": {},
+                        "f": {
+                            "df": 0,
+                            "docs": {},
+                            "f": {
+                                "df": 0,
+                                "docs": {},
+                                "i": {
+                                    "c": {"df": 0, "docs": {}, "i": {"df": 1, "docs": {"3": {"tf": 1.0}}}},
+                                    "df": 0,
+                                    "docs": {}
+                                }
                             }
                         }
                     },
@@ -1137,12 +1591,22 @@ window.search = {
                                     "t": {
                                         "df": 0,
                                         "docs": {},
-                                        "i": {"df": 0, "docs": {}, "s": {"df": 1, "docs": {"1": {"tf": 1.0}}}}
+                                        "i": {
+                                            "c": {"df": 1, "docs": {"3": {"tf": 1.0}}},
+                                            "df": 0,
+                                            "docs": {},
+                                            "s": {"df": 1, "docs": {"1": {"tf": 1.0}}}
+                                        }
                                     }
                                 }, "df": 0, "docs": {}
                             },
                             "df": 0,
                             "docs": {},
+                            "i": {
+                                "df": 0,
+                                "docs": {},
+                                "n": {"df": 0, "docs": {}, "t": {"df": 1, "docs": {"4": {"tf": 1.4142135623730951}}}}
+                            },
                             "o": {
                                 "b": {
                                     "df": 0,
@@ -1172,9 +1636,11 @@ window.search = {
                                     "df": 0,
                                     "docs": {},
                                     "r": {
-                                        "a": {"df": 0, "docs": {}, "m": {"df": 1, "docs": {"2": {"tf": 1.0}}}},
-                                        "df": 0,
-                                        "docs": {}
+                                        "a": {
+                                            "df": 0,
+                                            "docs": {},
+                                            "m": {"df": 2, "docs": {"2": {"tf": 1.0}, "4": {"tf": 1.4142135623730951}}}
+                                        }, "df": 0, "docs": {}
                                     }
                                 },
                                 "v": {
@@ -1239,7 +1705,20 @@ window.search = {
                                 }, "df": 0, "docs": {}
                             },
                             "df": 0,
-                            "docs": {}
+                            "docs": {},
+                            "s": {
+                                "df": 0,
+                                "docs": {},
+                                "o": {
+                                    "df": 0,
+                                    "docs": {},
+                                    "u": {
+                                        "df": 0,
+                                        "docs": {},
+                                        "r": {"c": {"df": 1, "docs": {"3": {"tf": 2.0}}}, "df": 0, "docs": {}}
+                                    }
+                                }
+                            }
                         },
                         "u": {
                             "df": 0,
@@ -1260,7 +1739,13 @@ window.search = {
                                                 }, "df": 0, "docs": {}
                                             }
                                         }, "df": 0, "docs": {}
-                                    }, "df": 2, "docs": {"1": {"tf": 1.0}, "2": {"tf": 1.4142135623730951}}
+                                    },
+                                    "df": 3,
+                                    "docs": {
+                                        "1": {"tf": 1.0},
+                                        "2": {"tf": 1.4142135623730951},
+                                        "3": {"tf": 2.8284271247461903}
+                                    }
                                 }
                             }
                         }
@@ -1283,7 +1768,9 @@ window.search = {
                                         "i": {"df": 2, "docs": {"1": {"tf": 1.0}, "2": {"tf": 1.0}}}
                                     }
                                 }
-                            }
+                            },
+                            "t": {"df": 0, "docs": {}, "e": {"df": 1, "docs": {"3": {"tf": 1.0}}}},
+                            "x": {"df": 1, "docs": {"4": {"tf": 1.0}}}
                         },
                         "o": {
                             "df": 0,
@@ -1297,7 +1784,7 @@ window.search = {
                             "u": {
                                 "df": 0,
                                 "docs": {},
-                                "r": {"c": {"df": 1, "docs": {"2": {"tf": 1.0}}}, "df": 0, "docs": {}}
+                                "r": {"c": {"df": 2, "docs": {"2": {"tf": 1.0}, "3": {"tf": 1.0}}}, "df": 0, "docs": {}}
                             }
                         },
                         "t": {
@@ -1363,9 +1850,11 @@ window.search = {
                         "docs": {},
                         "e": {
                             "a": {
-                                "c": {"df": 0, "docs": {}, "h": {"df": 1, "docs": {"1": {"tf": 1.0}}}},
-                                "df": 0,
-                                "docs": {}
+                                "c": {
+                                    "df": 0,
+                                    "docs": {},
+                                    "h": {"df": 2, "docs": {"1": {"tf": 1.0}, "3": {"tf": 1.0}}}
+                                }, "df": 0, "docs": {}
                             }, "df": 0, "docs": {}
                         },
                         "h": {
@@ -1384,6 +1873,7 @@ window.search = {
                         "i": {
                             "df": 0,
                             "docs": {},
+                            "l": {"df": 0, "docs": {}, "l": {"df": 1, "docs": {"3": {"tf": 1.0}}}},
                             "m": {"df": 0, "docs": {}, "e": {"df": 1, "docs": {"2": {"tf": 1.0}}}}
                         },
                         "r": {"df": 0, "docs": {}, "i": {"df": 1, "docs": {"2": {"tf": 1.0}}}},
@@ -1411,7 +1901,7 @@ window.search = {
                                 "docs": {}
                             }, "df": 0, "docs": {}
                         },
-                        "s": {"df": 1, "docs": {"2": {"tf": 1.0}}}
+                        "s": {"df": 2, "docs": {"2": {"tf": 1.0}, "4": {"tf": 1.0}}}
                     },
                     "w": {
                         "a": {
@@ -1426,7 +1916,7 @@ window.search = {
                                         "docs": {},
                                         "r": {"c": {"df": 1, "docs": {"2": {"tf": 1.0}}}, "df": 0, "docs": {}}
                                     }
-                                }, "df": 1, "docs": {"2": {"tf": 1.4142135623730951}}
+                                }, "df": 2, "docs": {"2": {"tf": 1.4142135623730951}, "3": {"tf": 1.0}}
                             }
                         },
                         "df": 0,
@@ -1453,13 +1943,24 @@ window.search = {
                                 "l": {"df": 0, "docs": {}, "e": {"df": 1, "docs": {"2": {"tf": 1.0}}}}
                             }
                         },
+                        "i": {
+                            "d": {
+                                "df": 0,
+                                "docs": {},
+                                "t": {"df": 0, "docs": {}, "h": {"df": 1, "docs": {"4": {"tf": 1.0}}}}
+                            }, "df": 0, "docs": {}
+                        },
                         "o": {
                             "df": 0,
                             "docs": {},
                             "r": {
                                 "df": 0,
                                 "docs": {},
-                                "l": {"d": {"df": 1, "docs": {"2": {"tf": 1.0}}}, "df": 0, "docs": {}}
+                                "l": {
+                                    "d": {"df": 3, "docs": {"2": {"tf": 1.0}, "3": {"tf": 1.0}, "4": {"tf": 1.0}}},
+                                    "df": 0,
+                                    "docs": {}
+                                }
                             }
                         },
                         "r": {
@@ -1471,6 +1972,7 @@ window.search = {
                                 "t": {
                                     "df": 0,
                                     "docs": {},
+                                    "e": {"df": 1, "docs": {"4": {"tf": 1.4142135623730951}}},
                                     "t": {
                                         "df": 0,
                                         "docs": {},
@@ -1484,8 +1986,17 @@ window.search = {
             },
             "title": {
                 "root": {
-                    "1": {"df": 1, "docs": {"3": {"tf": 1.0}}},
+                    "1": {"df": 1, "docs": {"4": {"tf": 1.0}}},
                     "b": {
+                        "a": {
+                            "df": 0,
+                            "docs": {},
+                            "s": {
+                                "df": 0,
+                                "docs": {},
+                                "i": {"c": {"df": 1, "docs": {"4": {"tf": 1.0}}}, "df": 0, "docs": {}}
+                            }
+                        },
                         "df": 0,
                         "docs": {},
                         "o": {
@@ -1507,7 +2018,7 @@ window.search = {
                                     "t": {
                                         "df": 0,
                                         "docs": {},
-                                        "e": {"df": 0, "docs": {}, "r": {"df": 1, "docs": {"3": {"tf": 1.0}}}}
+                                        "e": {"df": 0, "docs": {}, "r": {"df": 1, "docs": {"4": {"tf": 1.0}}}}
                                     }
                                 }
                             }, "df": 0, "docs": {}
@@ -1515,7 +2026,28 @@ window.search = {
                     },
                     "df": 0,
                     "docs": {},
-                    "f": {"a": {"df": 0, "docs": {}, "q": {"df": 1, "docs": {"2": {"tf": 1.0}}}}, "df": 0, "docs": {}}
+                    "f": {"a": {"df": 0, "docs": {}, "q": {"df": 1, "docs": {"2": {"tf": 1.0}}}}, "df": 0, "docs": {}},
+                    "r": {
+                        "df": 0,
+                        "docs": {},
+                        "e": {
+                            "df": 0,
+                            "docs": {},
+                            "s": {
+                                "df": 0,
+                                "docs": {},
+                                "o": {
+                                    "df": 0,
+                                    "docs": {},
+                                    "u": {
+                                        "df": 0,
+                                        "docs": {},
+                                        "r": {"c": {"df": 1, "docs": {"3": {"tf": 1.0}}}, "df": 0, "docs": {}}
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         },
