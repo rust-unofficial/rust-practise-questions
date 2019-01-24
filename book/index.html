@@ -162,7 +162,7 @@
 
         </div>
 
-
+        
         <!-- Livereload script (if served using the cli tool) -->
         <script type="text/javascript">
             var socket = new WebSocket("ws://localhost:3001");
@@ -173,12 +173,17 @@
                 }
             };
 
-            window.onbeforeunload = function () {
+            window.onbeforeunload = function() {
                 socket.close();
             }
         </script>
+        
 
+        
 
+        
+
+        
         <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
         <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
         <script src="searcher.js" type="text/javascript" charset="utf-8"></script>

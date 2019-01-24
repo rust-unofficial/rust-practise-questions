@@ -201,47 +201,87 @@
 </li>
 <li>
 <p>Print the following pattern using loops.</p>
-    <pre><code>     *
+<pre><code>     *
     ***
    *****
   *******
  *********
 </code></pre>
 </li>
-    <li>
-        <p>Check whether the input number is odd or even and print <code>odd</code> or <code>even</code> respectively.
-        </p>
-    </li>
-    <li>
-        <p>Find and print factorial of a program using recursion.</p>
-    </li>
-    <li>
-        <p>Using a match statement to print <code>one</code> for input <code>1</code>, <code>two</code> for
-            <code>2</code> and so on, and <code>NaN</code> on default.</p>
-    </li>
-    <li>
-        <p>Create a diverging function for addition of 2 numbers.</p>
-    </li>
-    <li>
-        <p>Create a program to check for leap year.<br/>
-            <code>note:</code> 1900 is not a leap year.</p>
-    </li>
-    <li>
-        <p>Write a function to swap 2 numbers.</p>
-    </li>
-    <li>
-        <p>Write a program to find prime numbers upto a number <code>N</code></p>
-    </li>
-    <li>
-        <p>WAP to sort a list of numbers.</p>
-    </li>
+<li>
+<p>Check whether the input number is odd or even and print <code>odd</code> or <code>even</code> respectively.</p>
+</li>
+<li>
+<p>Find and print factorial of a program using recursion.</p>
+</li>
+<li>
+<p>Using a match statement to print <code>one</code> for input <code>1</code>, <code>two</code> for <code>2</code> and so on, and <code>NaN</code> on default.</p>
+</li>
+<li>
+<p>Create a diverging function for addition of 2 numbers.</p>
+</li>
+<li>
+<p>Create a program to check for leap year.<br />
+<code>note:</code> 1900 is not a leap year.</p>
+</li>
+<li>
+<p>Write a function to swap 2 numbers.</p>
+</li>
+<li>
+<p>Write a program to find prime numbers upto a number <code>N</code></p>
+</li>
+<li>
+<p>WAP to sort a list of numbers.</p>
+</li>
+</ul>
+<a class="header" href="#chapter-3---structs" id="chapter-3---structs"><h1>Chapter 3 - Structs</h1></a>
+<ul>
+<li>
+<p>Write a program to store and print the roll no., name , age and marks of a student using structures.</p>
+</li>
+<li>
+<p>Write a program to compare two dates entered by user. Make a structure named Date to store the elements day, month and year to store the dates. If the dates are equal, display &quot;Dates are equal&quot; otherwise display &quot;Dates are not equal&quot;.</p>
+</li>
+<li>
+<p>Write a program to add, subtract and multiply two complex numbers using structures to function.</p>
+</li>
+<li>
+<p>Create a structure named Date having day, month and year as its elements. Store the current date in the structure. Now add 45 days to the current date and display the final date.</p>
+</li>
+<li>
+<p>Replicate constructor function with name <code>new()</code> returning type <code>Self</code>.</p>
+</li>
+<li>
+<p>Let us work on the menu of a library. Create a structure containing book information like accession number, name of author, book title and flag to know whether book is issued or not.
+Create a menu in which the following can be done.<br />
+1 - Display book information<br />
+2 - Add a new book<br />
+3 - Display all the books in the library of a particular author<br />
+4 - Display the number of books of a particular title<br />
+5 - Display the total number of books in the library<br />
+6 - Issue a book<br />
+(If we issue a book, then its number gets decreased by 1 and if we add a book, its number gets increased by 1)</p>
+</li>
+<li>
+<p>Create a generic struct for addition of numbers (they can be <code>integer</code> or <code>float</code>).</p>
+</li>
+<li>
+<p>Create a struct with <code>Copy, Clone, Debug, PartialEq</code> traits<br />
+<code>hint:</code> Use <code>#[derive]</code></p>
+</li>
+<li>
+<p>Create an immutable struct with a mutable member.<br />
+<code>hint:</code> Use <code>Cell</code>, property known as interior mutability.</p>
+</li>
+<li>
+<p>Try making the above program with <code>RefCell</code> so that the struct stores details about a bank(balance, customer count, location, etc) with only customer count being mutable.</p>
+</li>
 </ul>
 <a class="header" href="#chapter-4---enum--patterns" id="chapter-4---enum--patterns"><h1>Chapter 4 - Enum &amp; Patterns</h1></a>
-                        <a class="header" href="#chapter-5---traits--generics" id="chapter-5---traits--generics"><h1>
-                            Chapter 5 - Traits &amp; Generics</h1></a>
-                        <ul>
-                            <li></li>
-                        </ul>
+<a class="header" href="#chapter-5---traits--generics" id="chapter-5---traits--generics"><h1>Chapter 5 - Traits &amp; Generics</h1></a>
+<ul>
+<li></li>
+</ul>
 
                     </main>
 
@@ -264,7 +304,7 @@
 
         </div>
 
-
+        
         <!-- Livereload script (if served using the cli tool) -->
         <script type="text/javascript">
             var socket = new WebSocket("ws://localhost:3001");
@@ -275,12 +315,17 @@
                 }
             };
 
-            window.onbeforeunload = function () {
+            window.onbeforeunload = function() {
                 socket.close();
             }
         </script>
+        
 
+        
 
+        
+
+        
         <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
         <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
         <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
