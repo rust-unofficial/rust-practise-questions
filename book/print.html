@@ -278,6 +278,39 @@ Create a menu in which the following can be done.<br />
 </li>
 </ul>
 <a class="header" href="#chapter-4---enum--patterns" id="chapter-4---enum--patterns"><h1>Chapter 4 - Enum &amp; Patterns</h1></a>
+<ul>
+<li>
+<p>Create an enum that contains HTTP 4xx Client Errors.<br />
+<code>i.e.</code> <code>Not Found</code> Should have value <code>404</code> associated with it.</p>
+</li>
+<li>
+<p>Write an enum to store information of whether a person is a child or adult based on his/her age.</p>
+</li>
+<li>
+<p>Create a calculator with the help of an enum named <code>Operation</code> that as values such as <code>Add, Sub, Div, Multi</code>.<br />
+<code>hint:</code> For input like <code>2+5*10</code> it should first evaluate <code>5*10</code> and then add 2 to it.</p>
+</li>
+<li>
+<p>Use pattern matching to associate a enum of <code>Grade</code> type with a student based on his/her marks.</p>
+</li>
+<li>
+<p>Create an enum named <code>Json</code> that can work with arbitrary JSON data.</p>
+</li>
+<li>
+<p>Print what kind of input the user has given(numbers, letters, symbols) using pattern matching.<br />
+<code>hint:</code> Try using range for it e.g. <code>0 ... 100</code> or <code>'a' ... 'k'</code></p>
+</li>
+<li>
+<p>Use pattern matching to find that whether a point lies on X-Axis, Y-Axis or on which quadrant.</p>
+</li>
+<li>
+<p>Create a struct that holds info about a gun(gun type, recoil time, magazine size, extra) where <code>gun type</code> and <code>extra</code> are enums and <code>extra</code> contains silencer, scope, extended mags nad <code>None</code>.<br />
+Based on user input change the value of extra (may cause change in recoil time and magazine size).</p>
+</li>
+<li>
+<p>Create a Binary tree and have a method <code>add</code> on it to add elements to it and <code>min</code> and <code>max</code> to find the minimum and maximum element in it.</p>
+</li>
+</ul>
 <a class="header" href="#chapter-5---traits--generics" id="chapter-5---traits--generics"><h1>Chapter 5 - Traits &amp; Generics</h1></a>
 <ul>
 <li></li>
@@ -304,21 +337,6 @@ Create a menu in which the following can be done.<br />
 
         </div>
 
-        
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            var socket = new WebSocket("ws://localhost:3001");
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload(true); // force reload from server (not from cache)
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
         
 
         
