@@ -10,7 +10,7 @@ Though help will be provided in some questions as a form of `hint`
 
 #### How can I be sure whether a question has a solution or not ?
 
-Each and every question that appears in the book has been solved in at least 2 ways before making it's way in the book
+Each and every question that appears in the book has been solved in at least in 1 way before making it's way in the book
 
 #### Where can I find help ?
 

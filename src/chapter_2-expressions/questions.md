@@ -30,3 +30,6 @@
 * Write a program to find prime numbers upto a number `N`
 
 * WAP to sort a list of numbers.
+
+* WAP to iterate over 2 vectors at once.\
+`hint:` try using `.zip` method.

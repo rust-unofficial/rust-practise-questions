@@ -72,7 +72,7 @@
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <ol class="chapter"><li class="affix"><a href="about.html">About</a></li><li class="affix"><a href="FAQs.html">FAQs</a></li><li class="affix"><a href="RESOURCES.html">Learning Resources</a></li><li><a href="chapter_1-basics/questions.html"><strong aria-hidden="true">1.</strong> Chapter 1 - Basics</a></li><li><a href="chapter_2-expressions/questions.html"><strong aria-hidden="true">2.</strong> Chapter 2 - Expressions</a></li><li><a href="chapter_3-structs/questions.html"><strong aria-hidden="true">3.</strong> Chapter 3 - Structs</a></li><li><a href="chapter_4-enum&patterns/questions.html"><strong aria-hidden="true">4.</strong> Chapter 4 - Enum &amp; Patterns</a></li><li><a href="chapter_5-traits&generics/questions.html"><strong aria-hidden="true">5.</strong> Chapter 5 - Traits &amp; Generics</a></li><li><a href="chapter_6-operatoroverloading/questions.html"><strong aria-hidden="true">6.</strong> Chapter 6- Operator Overloading</a></li><li><a href="chapter_7-closures/questions.html"><strong aria-hidden="true">7.</strong> Chapter 7 - Closures</a></li><li><a href="chapter_8-iterators/questions.html"><strong aria-hidden="true">8.</strong> Chapter 8 - Iterators</a></li><li><a href="chapter_9-collections/questions.html"><strong aria-hidden="true">9.</strong> Chapter 9 - Collections</a></li><li><a href="chapter_10-input&output/questions.html"><strong aria-hidden="true">10.</strong> Chapter 10 - Input &amp; Output</a></li><li><a href="chapter_miscellaneous/questions.html"><strong aria-hidden="true">11.</strong> Chapter - Miscellaneous</a></li></ol>
+            <ol class="chapter"><li class="affix"><a href="about.html">About</a></li><li class="affix"><a href="FAQs.html">FAQs</a></li><li class="affix"><a href="RESOURCES.html">Learning Resources</a></li><li><a href="chapter_1-basics/questions.html"><strong aria-hidden="true">1.</strong> Chapter 1 - Basics</a></li><li><a href="chapter_2-expressions/questions.html"><strong aria-hidden="true">2.</strong> Chapter 2 - Expressions</a></li><li><a href="chapter_3-structs/questions.html"><strong aria-hidden="true">3.</strong> Chapter 3 - Structs</a></li><li><a href="chapter_4-enum&patterns/questions.html"><strong aria-hidden="true">4.</strong> Chapter 4 - Enum &amp; Patterns</a></li><li><a href="chapter_5-traits&generics/questions.html"><strong aria-hidden="true">5.</strong> Chapter 5 - Traits &amp; Generics</a></li><li><a href="chapter_6-operatoroverloading/questions.html"><strong aria-hidden="true">6.</strong> Chapter 6 - Operator Overloading</a></li><li><a href="chapter_7-closures/questions.html"><strong aria-hidden="true">7.</strong> Chapter 7 - Closures</a></li><li><a href="chapter_8-iterators/questions.html"><strong aria-hidden="true">8.</strong> Chapter 8 - Iterators</a></li><li><a href="chapter_9-collections/questions.html"><strong aria-hidden="true">9.</strong> Chapter 9 - Collections</a></li><li><a href="chapter_10-input&output/questions.html"><strong aria-hidden="true">10.</strong> Chapter 10 - Input &amp; Output</a></li><li><a href="chapter_11-macros/questions.html"><strong aria-hidden="true">11.</strong> Chapter 11 - Macros</a></li></ol>
         </nav>
 
         <div id="page-wrapper" class="page-wrapper">
@@ -146,7 +146,7 @@
 <p>The reason for this is so that you have to study the whole concept rather than a part of it because I feel a lot of new learners simply go and check the solution after being stuck for the first time.</p>
 <p>Though help will be provided in some questions as a form of <code>hint</code></p>
 <a class="header" href="#how-can-i-be-sure-whether-a-question-has-a-solution-or-not-" id="how-can-i-be-sure-whether-a-question-has-a-solution-or-not-"><h4>How can I be sure whether a question has a solution or not ?</h4></a>
-<p>Each and every question that appears in the book has been solved in at least 2 ways before making it's way in the book</p>
+<p>Each and every question that appears in the book has been solved in at least in 1 way before making it's way in the book</p>
 <a class="header" href="#where-can-i-find-help-" id="where-can-i-find-help-"><h4>Where can I find help ?</h4></a>
 <p>Some of the sources that are the most helpful are :</p>
 <ul>
@@ -233,6 +233,10 @@
 <li>
 <p>WAP to sort a list of numbers.</p>
 </li>
+<li>
+<p>WAP to iterate over 2 vectors at once.<br />
+<code>hint:</code> try using <code>.zip</code> method.</p>
+</li>
 </ul>
 <a class="header" href="#chapter-3---structs" id="chapter-3---structs"><h1>Chapter 3 - Structs</h1></a>
 <ul>
@@ -313,6 +317,27 @@ Based on user input change the value of extra (may cause change in recoil time a
 </ul>
 <a class="header" href="#chapter-5---traits--generics" id="chapter-5---traits--generics"><h1>Chapter 5 - Traits &amp; Generics</h1></a>
 <ul>
+<li>
+<p>Derive a debug trait to print info about your struct that contains <code>name</code>, <code>c1ass</code> and <code>roll</code>.</p>
+</li>
+<li>
+<p>Create a generic function to get min of 2 values.<br />
+<code>hint:</code> You might need to use <code>Ord</code> trait bound.</p>
+</li>
+<li>
+<p>Implement custom <code>Drop</code> trait for a struct name <code>Student</code> that contains your <code>name</code>, <code>age</code> and <code>roll number</code>. It
+should return <code>Roll number &lt;roll number&gt; has name &lt;name&gt; with age &lt;age&gt; and is a &lt;junior/senior&gt;</code>. Being Junior or Senior depends
+on age (18 or above).</p>
+</li>
+<li>
+<p>Implement a custom <code>Debug</code> message for the above Struct.</p>
+</li>
+<li>
+<p>Implement custom <code>Iterator</code> trait for a struct named <code>GeometricSeries</code> that has
+3 fields <code>first_number</code>, <code>current_number</code> and <code>ratio</code> of type <code>i32</code>. The iterator should return the
+next 11 numbers in geometric progression.<br />
+<code>hint:</code> Use <code>.take(11)</code> to get the next 11 in <code>for</code> loop.</p>
+</li>
 <li></li>
 </ul>
 
@@ -337,6 +362,21 @@ Based on user input change the value of extra (may cause change in recoil time a
 
         </div>
 
+        
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3001");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload(true); // force reload from server (not from cache)
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
         
 
         
