@@ -14,5 +14,5 @@
 - [Chapter 9 - Collections](chapter_9-collections/questions.md)
 - [Chapter 10 - Input & Output](chapter_10-input&output/questions.md)
 - [Chapter 11 - Macros](chapter_11-macros/questions.md)
-[Chapter - Miscellaneous](chapter_miscellaneous/questions.md)
+- [Chapter - Miscellaneous](chapter_miscellaneous/questions.md)
 

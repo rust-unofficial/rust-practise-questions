@@ -21,4 +21,7 @@ next 11 numbers in geometric progression.\
 * Implement a generic function name `sum` with additional parameter of `index: usize`
  that can take either `GeometricSeries` or `FibonacciSeries`  and returns the sum upto the given index.\
 `hint:` use `T: Iterator<Item = i32>` where `T` is generic  
- 
+
+* Write a generic function name `Multiply` that multiplies all `usize`, `isize` and `fsize` type values.
+
+* Make a generic function to return the greater of the 2 given values 
