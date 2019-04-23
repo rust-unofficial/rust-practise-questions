@@ -16,7 +16,7 @@ Each and every question that appears in the book has been solved in at least in 
 
 Some of the sources that are the most helpful are :
 * [Rust IRC Channel for beginners](https://client00.chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-beginners)
-* [Stackoverflow](https://stackoverflow.com/)
+* [Stackoverflow](https://stackoverflow.com/questions/tagged/rust)
 * [Reddit community of Rust](https://www.reddit.com/r/rust/)
 
 #### I am unable to solve so-and-so question, why ?

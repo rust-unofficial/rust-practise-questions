@@ -7,4 +7,6 @@ A set of questions for Rust lang **(yet to be completed)**
 
 Read [about](src/about.md) for more information about the book
 
+Read [CONTRIBUTING](CONTRIBUTING.md) for contributing to the book
+
 [FAQs](FAQs.md)
