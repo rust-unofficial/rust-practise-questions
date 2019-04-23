@@ -15,4 +15,4 @@
 
 * Take input(name) from the user of type `String` and print `Hello, <name>!`.
 
-*
+* Initialize an array of sixteen `0`

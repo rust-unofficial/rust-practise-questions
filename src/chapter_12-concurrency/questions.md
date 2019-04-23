@@ -2,6 +2,3 @@
 
 * Find out the number of physical and logical cores in your CPU using rust.
 `hint:` try using `num_cpus` crate.
-
-* 
-  
