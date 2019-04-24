@@ -24,4 +24,8 @@ next 11 numbers in geometric progression.\
 
 * Write a generic function name `Multiply` that multiplies all `usize`, `isize` and `fsize` type values.
 
-* Make a generic function to return the greater of the 2 given values 
+* Make a generic function to return the greater of the 2 given values (integer and floats).
+
+* Implement a trait named `Hello` with a default function `say(&self)` that prints `Hello, <self>!`
+, Implement this for `str` and `string` without providing any definition of `Hello` (simply `impl Hello for str {}`)
+call `say` on str `World`.

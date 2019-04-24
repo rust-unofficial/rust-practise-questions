@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <title>Jang</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
+        <meta name="description" content="Rust Practise Questions">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
 
@@ -315,11 +315,17 @@ Create a menu in which the following can be done.<br />
 <p>Use pattern matching to find that whether a point lies on X-Axis, Y-Axis or on which quadrant.</p>
 </li>
 <li>
-<p>Create a struct that holds info about a gun(gun type, recoil time, magazine size, extra) where <code>gun type</code> and <code>extra</code> are enums and <code>extra</code> contains silencer, scope, extended mags nad <code>None</code>.<br />
+<p>Create a struct that holds info about a gun(gun type, recoil time, magazine size, extra) where <code>gun type</code> and
+<code>extra</code> are enums and <code>extra</code> contains silencer, scope, extended mags nad <code>None</code>.<br />
 Based on user input change the value of extra (may cause change in recoil time and magazine size).</p>
 </li>
 <li>
 <p>Create a Binary tree and have a method <code>add</code> on it to add elements to it and <code>min</code> and <code>max</code> to find the minimum and maximum element in it.</p>
+</li>
+<li>
+<p>Create a <code>Regex</code> to extract dates from this string <code>It was on 2019-03-14, almost after a year from 2018-02-11</code> and store in a
+Struct with fields of <code>day</code>, <code>month</code> and <code>year</code>.
+<code>hint:</code> Use <code>Regex</code> crate</p>
 </li>
 </ul>
 <a class="header" href="#chapter-5---traits--generics" id="chapter-5---traits--generics"><h1>Chapter 5 - Traits &amp; Generics</h1></a>
@@ -357,7 +363,12 @@ that can take either <code>GeometricSeries</code> or <code>FibonacciSeries</code
 <p>Write a generic function name <code>Multiply</code> that multiplies all <code>usize</code>, <code>isize</code> and <code>fsize</code> type values.</p>
 </li>
 <li>
-<p>Make a generic function to return the greater of the 2 given values</p>
+<p>Make a generic function to return the greater of the 2 given values (integer and floats).</p>
+</li>
+<li>
+<p>Implement a trait named <code>Hello</code> with a default function <code>say(&amp;self)</code> that prints <code>Hello, &lt;self&gt;!</code>
+, Implement this for <code>str</code> and <code>string</code> without providing any definition of <code>Hello</code> (simply <code>impl Hello for str {}</code>)
+call <code>say</code> on str <code>World</code>.</p>
 </li>
 </ul>
 <ul>
@@ -369,7 +380,6 @@ operator so that when 2 structs subtract it removes the chars of 2nd from 1st on
 <p>Create a struct name <code>ComplexNumber</code> that has 2 variables <code>re</code> &amp; <code>im</code> and overload <code>minus</code>
 and <code>plus</code> operator to add and subtract complex number.</p>
 </li>
-<li></li>
 </ul>
 <ul>
 <li>Implement a macro named <code>addition</code> to add any amount of numbers. <code>Eg</code>: <code>addition!(5, 6, 57 ,56, 1)</code>
@@ -408,6 +418,23 @@ should return <code>125</code> and <code>addition!(4, 9)</code> should return <c
 
         
 
+        
+        <!-- Google Analytics Tag -->
+        <script type="text/javascript">
+            var localAddrs = ["localhost", "127.0.0.1", ""];
+
+            // make sure we don't activate google analytics if the developer is
+            // inspecting the book locally...
+            if (localAddrs.indexOf(document.location.hostname) === -1) {
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-138954958-1', 'auto');
+                ga('send', 'pageview');
+            }
+        </script>
         
 
         

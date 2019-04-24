@@ -17,7 +17,12 @@
 
 * Use pattern matching to find that whether a point lies on X-Axis, Y-Axis or on which quadrant.
 
-* Create a struct that holds info about a gun(gun type, recoil time, magazine size, extra) where `gun type` and `extra` are enums and `extra` contains silencer, scope, extended mags nad `None`.\
+* Create a struct that holds info about a gun(gun type, recoil time, magazine size, extra) where `gun type` and
+`extra` are enums and `extra` contains silencer, scope, extended mags nad `None`.\
 Based on user input change the value of extra (may cause change in recoil time and magazine size).
 
 * Create a Binary tree and have a method `add` on it to add elements to it and `min` and `max` to find the minimum and maximum element in it.
+
+* Create a `Regex` to extract dates from this string `It was on 2019-03-14, almost after a year from 2018-02-11` and store in a 
+Struct with fields of `day`, `month` and `year`.
+`hint:` Use `Regex` crate 
