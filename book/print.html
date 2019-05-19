@@ -75,7 +75,7 @@
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <ol class="chapter"><li class="affix"><a href="about.html">About</a></li><li class="affix"><a href="FAQs.html">FAQs</a></li><li class="affix"><a href="RESOURCES.html">Learning Resources</a></li><li><a href="chapter_1-basics/questions.html"><strong aria-hidden="true">1.</strong> Chapter 1 - Basics</a></li><li><a href="chapter_2-expressions/questions.html"><strong aria-hidden="true">2.</strong> Chapter 2 - Expressions</a></li><li><a href="chapter_3-structs/questions.html"><strong aria-hidden="true">3.</strong> Chapter 3 - Structs</a></li><li><a href="chapter_4-enum&patterns/questions.html"><strong aria-hidden="true">4.</strong> Chapter 4 - Enum &amp; Patterns</a></li><li><a href="chapter_5-traits&generics/questions.html"><strong aria-hidden="true">5.</strong> Chapter 5 - Traits &amp; Generics</a></li><li><a href="chapter_6-operatoroverloading/questions.html"><strong aria-hidden="true">6.</strong> Chapter 6 - Operator Overloading</a></li><li><a href="chapter_7-closures/questions.html"><strong aria-hidden="true">7.</strong> Chapter 7 - Closures</a></li><li><a href="chapter_8-iterators/questions.html"><strong aria-hidden="true">8.</strong> Chapter 8 - Iterators</a></li><li><a href="chapter_9-collections/questions.html"><strong aria-hidden="true">9.</strong> Chapter 9 - Collections</a></li><li><a href="chapter_10-input&output/questions.html"><strong aria-hidden="true">10.</strong> Chapter 10 - Input &amp; Output</a></li><li><a href="chapter_11-macros/questions.html"><strong aria-hidden="true">11.</strong> Chapter 11 - Macros</a></li><li><a href="chapter_12-concurrency/questions.html"><strong aria-hidden="true">12.</strong> Chapter 12 - Concurrency</a></li><li><a href="chapter_miscellaneous/questions.html"><strong aria-hidden="true">13.</strong> Chapter - Miscellaneous</a></li></ol>
+            <ol class="chapter"><li class="affix"><a href="about.html">About</a></li><li class="affix"><a href="FAQs.html">FAQs</a></li><li class="affix"><a href="RESOURCES.html">Learning Resources</a></li><li><a href="chapter_1-basics/questions.html"><strong aria-hidden="true">1.</strong> Chapter 1 - Basics</a></li><li><a href="chapter_2-expressions/questions.html"><strong aria-hidden="true">2.</strong> Chapter 2 - Expressions</a></li><li><a href="chapter_3-structs/questions.html"><strong aria-hidden="true">3.</strong> Chapter 3 - Structs</a></li><li><a href="chapter_4-enum&patterns/questions.html"><strong aria-hidden="true">4.</strong> Chapter 4 - Enum &amp; Patterns</a></li><li><a href="chapter_5-traits&generics/questions.html"><strong aria-hidden="true">5.</strong> Chapter 5 - Traits &amp; Generics</a></li><li><a href="chapter_6-operatoroverloading&utility/questions.html"><strong aria-hidden="true">6.</strong> Chapter 6 - Operator Overloading &amp; Utility Traits</a></li><li><a href="chapter_7-closures&iterators/questions.html"><strong aria-hidden="true">7.</strong> Chapter 7 - Closures &amp; Iterators</a></li><li><a href="chapter_9-collections/questions.html"><strong aria-hidden="true">8.</strong> Chapter 8 - Collections</a></li><li><a href="chapter_10-input&output/questions.html"><strong aria-hidden="true">9.</strong> Chapter 9 - Input &amp; Output</a></li><li><a href="chapter_11-macros/questions.html"><strong aria-hidden="true">10.</strong> Chapter 10 - Macros</a></li><li><a href="chapter_12-concurrency/questions.html"><strong aria-hidden="true">11.</strong> Chapter 11 - Concurrency</a></li><li><a href="chapter_miscellaneous/questions.html"><strong aria-hidden="true">12.</strong> Chapter - Miscellaneous</a></li></ol>
         </nav>
 
         <div id="page-wrapper" class="page-wrapper">
@@ -387,6 +387,21 @@ and <code>plus</code> operator to add and subtract complex number.</p>
 <p>Create a struct named <code>Class</code> that contains the class size, section and grade. Overload
 the <code>&gt;</code>, <code>&lt;</code>, <code>&gt;=</code>, <code>&lt;=</code>, <code>==</code> operators to compare class sizes of various Classes.</p>
 </li>
+<li>
+<p>Rust does not allow addition of <code>integer</code> and <code>float</code>. Overload <code>+</code> so that this is possible.</p>
+</li>
+</ul>
+<ul>
+<li>
+<p>Create a closer <code>add_one</code> to add 1 to an integer.</p>
+</li>
+<li>
+<p>Create an vec of numbers from <code>0</code> ... <code>100</code>, mutate the vec so that
+it does not contain any number divisible by <code>3</code>. Use <code>retain</code> method of Vec.</p>
+</li>
+<li>
+<p>Create a function that accepts a closure</p>
+</li>
 </ul>
 <ul>
 <li>Implement a macro named <code>addition</code> to add any amount of numbers. <code>Eg</code>: <code>addition!(5, 6, 57 ,56, 1)</code>
@@ -423,6 +438,21 @@ should return <code>125</code> and <code>addition!(4, 9)</code> should return <c
 
         </div>
 
+        
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3001");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload(true); // force reload from server (not from cache)
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
         
 
         

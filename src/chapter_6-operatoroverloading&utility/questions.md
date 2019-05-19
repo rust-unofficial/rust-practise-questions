@@ -8,3 +8,5 @@ and `plus` operator to add and subtract complex number.
 
 * Create a struct named `Class` that contains the class size, section and grade. Overload
 the `>`, `<`, `>=`, `<=`, `==` operators to compare class sizes of various Classes.
+
+* Rust does not allow addition of `integer` and `float`. Overload `+` so that this is possible.
