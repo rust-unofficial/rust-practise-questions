@@ -391,6 +391,17 @@ the <code>&gt;</code>, <code>&lt;</code>, <code>&gt;=</code>, <code>&lt;=</code>
 <li>
 <p>Rust does not allow addition of <code>integer</code> and <code>float</code>. Overload <code>+</code> so that this is possible.</p>
 </li>
+<li>
+<p>Implement custom <code>Drop</code> for a struct <code>Hero</code> that contains a field <code>name</code> of type string.
+The <code>drop</code> should print &quot;Oh no !!! Our hero {name} is defeated&quot;. Run the program with just
+declaring a variable of type <code>Hero</code>.</p>
+</li>
+<li>
+<p>Create the struct named <code>World</code> that contains the previous named struct <code>Hero</code>, define <code>drop</code>
+for it so that it prints &quot;The world ends here !!!&quot;. Observe the order in which <code>World</code> and <code>Hero</code>
+contained by it are dropped.</p>
+</li>
+<li></li>
 </ul>
 <ul>
 <li>
@@ -439,21 +450,6 @@ should return <code>125</code> and <code>addition!(4, 9)</code> should return <c
 
         </div>
 
-        
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            var socket = new WebSocket("ws://localhost:3001");
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload(true); // force reload from server (not from cache)
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
         
 
         

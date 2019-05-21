@@ -10,3 +10,13 @@ and `plus` operator to add and subtract complex number.
 the `>`, `<`, `>=`, `<=`, `==` operators to compare class sizes of various Classes.
 
 * Rust does not allow addition of `integer` and `float`. Overload `+` so that this is possible.
+
+* Implement custom `Drop` for a struct `Hero` that contains a field `name` of type string.
+The `drop` should print "Oh no !!! Our hero {name} is defeated". Run the program with just 
+declaring a variable of type `Hero`.
+
+* Create the struct named `World` that contains the previous named struct `Hero`, define `drop`
+for it so that it prints "The world ends here !!!". Observe the order in which `World` and `Hero` 
+contained by it are dropped.
+
+* 
