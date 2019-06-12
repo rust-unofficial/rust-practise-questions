@@ -382,7 +382,7 @@ operator so that when 2 structs subtract it removes the chars of 2nd from 1st on
 and <code>plus</code> operator to add and subtract complex number.</p>
 </li>
 <li>
-<p>Overload the <code>!</code> operator to conjugate the complex number and <code>==</code> and <code>!=</code> for comparison.</p>
+<p>Overload the <code>!</code> operator to conjugate the complex number <code>!ComplexNumber</code> and <code>==</code> and <code>!=</code> for comparison.</p>
 </li>
 <li>
 <p>Create a struct named <code>Class</code> that contains the class size, section and grade. Overload
@@ -401,7 +401,19 @@ declaring a variable of type <code>Hero</code>.</p>
 for it so that it prints &quot;The world ends here !!!&quot;. Observe the order in which <code>World</code> and <code>Hero</code>
 contained by it are dropped.</p>
 </li>
-<li></li>
+<li>
+<p>Create a struct named <code>Table</code> that has a generic field <code>legs_info</code> of type <code>T</code>. Create a function (not a method)
+named <code>show</code> that accepts function parameters <code>&amp;Table&lt;Display&gt;</code> and displays <code>legs_info</code>. Create 2 variables one
+that contains <code>T</code> of type <code>String: &quot;Work in progress...&quot;</code> and <code>usize: 4</code>.<br />
+<code>hint:</code> use <code>?Sized</code>.</p>
+</li>
+<li>
+<p>Implement <code>From</code> trait for struct <code>ComplexNumber</code> given a tuple of type <code>(isize, isize)</code>. Form it using <code>from</code>
+and <code>into</code> respectively.</p>
+</li>
+<li>
+<p>Create a function that accepts either <code>ComplexNumber</code> or <code>(isize, isize)</code> to return the <code>mod</code> of ComplexNumber.</p>
+</li>
 </ul>
 <ul>
 <li>
@@ -450,6 +462,21 @@ should return <code>125</code> and <code>addition!(4, 9)</code> should return <c
 
         </div>
 
+        
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3001");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload(true); // force reload from server (not from cache)
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
         
 
         
