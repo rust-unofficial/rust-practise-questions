@@ -12,7 +12,8 @@ Read [CONTRIBUTING](CONTRIBUTING.md) for contributing to the book
 
 [![Visit Book](https://img.shields.io/badge/Book-Rendered-brightgreen.svg?style=for-the-badge)](https://sn99.github.io/rust-practise-questions/)
 
-See also the list of [contributors](https://github.com/sn99/rust-practise-questions/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/sn99/rust-practise-questions/graphs/contributors) who
+participated in this project.
 
 ## License
 

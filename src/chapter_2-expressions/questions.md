@@ -1,7 +1,7 @@
 # Chapter 2 - Expressions
 
 * Run an infinite `loop` to keep on printing `Hello, World!`.\
-`hint:` you might want to use `ctrl+c` or `ctrl+z` to exit the infinite loop.
+  `hint:` you might want to use `ctrl+c` or `ctrl+z` to exit the infinite loop.
 
 * Take a `integer` input from the user and print table for that integer using a loop.
 
@@ -23,7 +23,7 @@
 * Create a diverging function for addition of 2 numbers.
 
 * Create a program to check for leap year.\
-`note:` 1900 is not a leap year.
+  `note:` 1900 is not a leap year.
 
 * Write a function to swap 2 numbers.
 
@@ -32,4 +32,4 @@
 * WAP to sort a list of numbers.
 
 * WAP to iterate over 2 vectors at once.\
-`hint:` try using `.zip` method.
+  `hint:` try using `.zip` method.

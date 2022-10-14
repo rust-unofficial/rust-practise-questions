@@ -3,6 +3,7 @@
 [About](about.md)
 [FAQs](FAQs.md)
 [Learning Resources](RESOURCES.md)
+
 - [Chapter 1 - Basics](chapter_1-basics/questions.md)
 - [Chapter 2 - Expressions](chapter_2-expressions/questions.md)
 - [Chapter 3 - Structs](chapter_3-structs/questions.md)
