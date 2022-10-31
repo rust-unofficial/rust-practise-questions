@@ -4,6 +4,3 @@ multilingual = false
 src = "src"
 title = "Jang"
 description = "Rust Practise Questions"
-
-[output.html]
-google-analytics = "UA-138954958-1"
