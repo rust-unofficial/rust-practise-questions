@@ -1,4 +1,4 @@
-The source code of the book is at [link](https://github.com/sn99/rust-practise-questions)
+The source code of the book is at [link](https://github.com/rust-unofficial/rust-practise-questions)
 
 # about
 

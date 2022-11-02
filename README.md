@@ -3,7 +3,7 @@
 [![Deploy](https://github.com/rust-unofficial/rust-practise-questions/actions/workflows/deploy.yml/badge.svg)](https://github.com/rust-unofficial/rust-practise-questions/actions/workflows/deploy.yml)
 [![pages-build-deployment](https://github.com/rust-unofficial/rust-practise-questions/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/rust-unofficial/rust-practise-questions/actions/workflows/pages/pages-build-deployment)
 
-[![Visit Book](https://img.shields.io/badge/Book-Rendered-brightgreen.svg?style=for-the-badge)](https://sn99.github.io/rust-practise-questions/)
+[![Visit Book](https://img.shields.io/badge/Book-Rendered-brightgreen.svg?style=for-the-badge)](https://rust-unofficial.github.io/rust-practise-questions/)
 
 A set of questions for Rust lang
 
